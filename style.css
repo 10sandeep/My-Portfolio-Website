@@ -43,7 +43,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 40px 9%;
+    padding: 20px 9%;
     background: rgba(0 0 0 0.4);
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
@@ -360,6 +360,10 @@ li>a>button:hover>span:last-of-type {
     text-align: center;
     font-size: 4.5rem;
 }
+.heading span{
+    color: #09a6ef;
+    transition: all 0.3s ease;
+}
 
 .services-list {
     display: grid;
@@ -616,8 +620,9 @@ li>a>button:hover>span:last-of-type {
         height: 100vh;
         width: 100%;
         left: -100%;
+        font-weight: 700;
         top: 0;
-        background: #111;
+        background: #001;
         text-align: center;
         flex-direction: column;
         padding-top: 80px;
