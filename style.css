@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
     font-family: -apple-system, sans-serif;
 }
+#particles-js{
+    height: 700%;
+    position: absolute;
+}
 
 html {
     font-size: 62.5%;
@@ -180,7 +184,7 @@ li>a>button:hover>span:last-of-type {
     display: flex;
     justify-content: center;
     align-content: center;
-    min-height: 50vh;
+    min-height: 40vh;
     margin-bottom: -200px;
     flex-direction: column;
     width: 60%;
@@ -290,7 +294,7 @@ li>a>button:hover>span:last-of-type {
 .about-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 20rem;
+    gap: 30rem;
 }
 
 .title-h1 {
