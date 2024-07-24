@@ -284,40 +284,44 @@ li>a>button:hover>span:last-of-type {
     transform: scale(1.2);
 
 }
-
-.about {
-
+  .about {
     min-height: 50vh;
-
-}
-
-.about-container {
+  }
+  
+  .about-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 30rem;
-}
-
-.title-h1 {
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem; /* Further reduced gap to bring the elements closer */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .title-h1 {
     color: #fff;
     margin-bottom: 1.1rem;
     position: relative;
     display: inline-block;
     font-size: 3.5rem;
-
-}
-
-.about p {
+  }
+  
+  .about p {
     color: #fff;
     margin: 1.5rem 0;
     font-size: 20px;
-}
-
-.about-social {
+  }
+  
+  .about .cartoon {
+    width: 100%; /* Ensure the cartoon fits within its grid column */
+    height: 550px;
+    background: transparent;
+    padding-left: 40px; /* Remove extra padding to align it better */
+  }
+  
+  .about-social {
     margin-top: 10px;
     margin-bottom: 25px;
-}
-
-.about-social i {
+  }
+  
+  .about-social i {
     color: #09a6ef;
     font-size: 16px;
     background-color: transparent;
@@ -329,14 +333,14 @@ li>a>button:hover>span:last-of-type {
     border-radius: 50%;
     border: 1.5px solid #09a6ef;
     transition: 0.5s;
-}
-
-.about-social i:hover {
+  }
+  
+  .about-social i:hover {
     transform: scale(1.5);
     border: 1px solid #09a6ef;
-}
-
-.btn-b {
+  }
+  
+  .btn-b {
     display: inline-block;
     background: #09a6ef;
     font-size: 20px;
@@ -346,14 +350,23 @@ li>a>button:hover>span:last-of-type {
     border: 2px solid #09a6ef;
     color: #fff;
     transition: all 0.3s ease;
-
-}
-
-.btn-b:hover {
+  }
+  
+  .btn-b:hover {
     color: #09a6ef;
     background: none;
-}
+  }
+  
+  model-viewer {
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /* Ensure the box-sizing includes padding and border in width and height */
+    max-width: 100%;
+  }
 
+   
 .services {
     color: #fff;
     background: #001;
